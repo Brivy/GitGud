@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace GitGud.DS.Stack.Implementations;
 
-internal class ResizableArrayStack<TItem>(int cap) : IStack<TItem>
+public class ResizableArrayStack<TItem>(int cap) : IStack<TItem>
 {
     private TItem[] _items = new TItem[cap];
     private int _index;
