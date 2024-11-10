@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace GitGud.DS.Stack.Implementations;
 
-internal class LinkedListStack<TItem> : IStack<TItem>
+public class LinkedListStack<TItem> : IStack<TItem>
 {
     private Node? _first;
     private int _index;

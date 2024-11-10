@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace GitGud.DS.Stack.Implementations;
 
-internal class ArrayStack<TItem>(int cap) : IStack<TItem>
+public class ArrayStack<TItem>(int cap) : IStack<TItem>
 {
     private readonly TItem[] _items = new TItem[cap];
     private int _index;

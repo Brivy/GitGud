@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace GitGud.DS.Bag.Implementations;
 
-internal class LinkedListBag<TItem> : IBag<TItem>
+public class LinkedListBag<TItem> : IBag<TItem>
 {
     private Node? _first;
     private int _index;

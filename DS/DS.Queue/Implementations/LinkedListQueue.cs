@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace GitGud.DS.Queue.Implementations;
 
-internal class LinkedListQueue<TItem> : IQueue<TItem>
+public class LinkedListQueue<TItem> : IQueue<TItem>
 {
     private Node? _first;
     private Node? _last;
