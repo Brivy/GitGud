@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algos", "Algos", "{DA0E5E0B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algos.ExpressionEvaluation", "Algos\Algos.ExpressionEvaluation\Algos.ExpressionEvaluation.csproj", "{02D1528E-FEEF-4901-BCB7-23271FAFEBD3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex", "Ex", "{B7F97EC7-D20A-40C4-8158-D01D784DA11F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.Fundamentals", "Ex\Ex.Fundamentals\Ex.Fundamentals.csproj", "{77244A49-9690-4069-B725-32F9A157BFCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,10 @@ Global
 		{02D1528E-FEEF-4901-BCB7-23271FAFEBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02D1528E-FEEF-4901-BCB7-23271FAFEBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02D1528E-FEEF-4901-BCB7-23271FAFEBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77244A49-9690-4069-B725-32F9A157BFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77244A49-9690-4069-B725-32F9A157BFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77244A49-9690-4069-B725-32F9A157BFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77244A49-9690-4069-B725-32F9A157BFCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +54,6 @@ Global
 		{00437FDC-AFFA-4FB6-9931-4D29F31DA388} = {D91E415F-34FD-490D-B8A9-8EC3F8AAB724}
 		{EFAD9DF3-DA4B-4158-B246-2A69C8F7106C} = {D91E415F-34FD-490D-B8A9-8EC3F8AAB724}
 		{02D1528E-FEEF-4901-BCB7-23271FAFEBD3} = {DA0E5E0B-E62C-4657-9E5A-6835F82F6865}
+		{77244A49-9690-4069-B725-32F9A157BFCD} = {B7F97EC7-D20A-40C4-8158-D01D784DA11F}
 	EndGlobalSection
 EndGlobal
