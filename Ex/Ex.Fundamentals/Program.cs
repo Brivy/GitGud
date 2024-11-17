@@ -24,7 +24,7 @@ internal static class Program
         {
             runner.Run();
 
-            Console.Write("Finished running runner: (r)edo or (a)bort? ");
+            Console.Write("Finished running runner: (r)edo or (e)xit? ");
             var command = Console.ReadLine();
             if (command != "R" && command != "r")
             {
