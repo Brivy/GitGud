@@ -9,6 +9,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\..\DS\DS.Queue\DS.Queue.csproj" />
 	  <ProjectReference Include="..\..\DS\DS.Stack\DS.Stack.csproj" />
 	</ItemGroup>
 
