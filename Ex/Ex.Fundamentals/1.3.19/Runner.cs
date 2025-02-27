@@ -8,24 +8,24 @@ public class Runner : IRunner
 
     public void Run()
     {
-        var firstLinkedList = new LinkedListLastDeleter<int> { 1 };
+        var firstLinkedList = new LinkedListLastDeleterV2<int> { 1 };
         firstLinkedList.RemoveLastNode();
         Print(nameof(firstLinkedList), firstLinkedList);
 
-        var secondLinkedList = new LinkedListLastDeleter<int> { 1, 2 };
+        var secondLinkedList = new LinkedListLastDeleterV2<int> { 1, 2 };
         secondLinkedList.RemoveLastNode();
         Print(nameof(secondLinkedList), secondLinkedList);
 
-        var thirdLinkedList = new LinkedListLastDeleter<int> { 1, 2, 3 };
+        var thirdLinkedList = new LinkedListLastDeleterV2<int> { 1, 2, 3 };
         thirdLinkedList.RemoveLastNode();
         Print(nameof(thirdLinkedList), thirdLinkedList);
 
-        var fourthLinkedList = new LinkedListLastDeleter<int> { 1, 2, 3, 4 };
+        var fourthLinkedList = new LinkedListLastDeleterV2<int> { 1, 2, 3, 4 };
         fourthLinkedList.RemoveLastNode();
         Print(nameof(fourthLinkedList), fourthLinkedList);
     }
 
-    private static void Print(string name, LinkedListLastDeleter<int> linkedList)
+    private static void Print(string name, LinkedListLastDeleterV2<int> linkedList)
     {
         Console.WriteLine($"Printing contents of {name}");
 
